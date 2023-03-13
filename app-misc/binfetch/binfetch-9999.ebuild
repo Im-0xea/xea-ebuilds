@@ -18,9 +18,9 @@ BDEPEND=""
 
 src_prepare() {
 	default
-	emake CONFIG="${D}/${EPREFIX}/usr/share/binfetch/"
+	emake PREFIX="${EPREFIX}"/usr
 }
 
 src_install() {
-	emake CONFIG="${D}/${EPREFIX}/usr/share/binfetch/" PREFIX="${D}/${EPREFIX}"/usr install
+	emake DESTDIR="${D}" PREFIX="${EPREFIX}"/usr install
 }
