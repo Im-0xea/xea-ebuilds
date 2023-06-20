@@ -6,7 +6,7 @@ EAPI=8
 DESCRIPTION="Neofetch inspired utility for binaries."
 HOMEPAGE="https://socki.moe"
 inherit git-r3
-EGIT_REPO_URI="https://github.com/Nik-Nothing/binfetch.git"
+EGIT_REPO_URI="https://github.com/Im-0xea/binfetch.git"
 
 LICENSE="CC0"
 SLOT="0"

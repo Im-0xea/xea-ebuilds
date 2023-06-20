@@ -6,7 +6,7 @@ EAPI=8
 DESCRIPTION="A transpiler to simplify non line-based languages."
 HOMEPAGE="https://socki.moe"
 inherit git-r3
-EGIT_REPO_URI="https://github.com/Nik-Nothing/ibranching.git"
+EGIT_REPO_URI="https://github.com/Im-0xea/ibranching.git"
 
 LICENSE="CC0"
 SLOT="0"
